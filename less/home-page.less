@@ -2,12 +2,17 @@
 h1 {
   padding:10px;
   font-size: 3.5rem;
+  word-spacing:-10px;
 }
 .home {
   margin-top:90px;
+  color:@main-font-color;
   
   .intro {
-
+    @media @phone{
+      width:100%;
+    }
+    
     h2 {
       padding: 15px;
     }

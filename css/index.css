@@ -162,13 +162,16 @@ p {
 }
 .main-navigation {
   width: 100%;
+  color: #454A59;
   height: 90px;
-  background: #f4f4f4;
-  border: 1px double #e0e0e0;
+  background: #F6F6F6;
+  border: 1px double #F1F1F1;
   display: flex;
+  color: #23293B;
   align-items: center;
   position: fixed;
   top: 0;
+  opacity: 0.75;
 }
 .main-navigation .nav-container {
   display: flex;
@@ -196,8 +199,8 @@ p {
   }
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
+  color: #81848E;
+  background: #F6F6F6;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
@@ -208,15 +211,21 @@ footer {
 @media ( max-width: 500px ) {
   footer {
     width: 100%;
-    margin: 0.1%;
   }
 }
 h1 {
   padding: 10px;
   font-size: 3.5rem;
+  word-spacing: -10px;
 }
 .home {
   margin-top: 90px;
+  color: #5E6164;
+}
+@media ( max-width: 500px ) {
+  .home .intro {
+    width: 100%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
