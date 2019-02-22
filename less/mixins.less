@@ -1,1 +1,37 @@
 // Mixins Here
+.button-style (@bgrd,@r,@c){
+    background:@bgrd;
+    border-radius:@r;
+    color:@c;
+
+   
+
+
+}
+
+//Mobile flex
+
+.mobi-flex(@dir){
+    display:flex;
+    flex-direction:@dir;
+}
+
+.lslider(@from,@fwidth,@to,@twidth){
+    from {
+    margin-left: @from;
+    width: @fwidth; 
+  }
+
+  to {
+    
+    
+    margin-left: @to;
+    width: @twidth;
+  }
+}
+
+.fixed-nav(){
+    align-items: center;
+    position:fixed;
+    top:0;
+}
