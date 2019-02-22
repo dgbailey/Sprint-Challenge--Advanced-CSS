@@ -187,6 +187,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 340px;
+  padding-bottom: 5px;
 }
 .main-navigation .nav-container .nav a {
   font-size: 1.4rem;
